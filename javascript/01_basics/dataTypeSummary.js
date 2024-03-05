@@ -15,3 +15,13 @@ const myfunction = function () {
 };
 
 myfunction();
+let userone = {
+    email: "gyh@gmail.com",
+    upi: "ji@ybl",
+  };
+  
+  let usertwo = userone;
+  usertwo.email = "kjsdcn@gmail.com";
+  
+  console.log(usertwo.email);
+  console.log(userone.email);
