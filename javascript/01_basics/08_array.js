@@ -26,3 +26,9 @@ const myn2=myarr.splice(1,3)
 
 console.log(myn1);
 console.log(myn2);
+
+const marval_heros=["a","f","g","e"]
+const dc_heros = ["g","e","c"]
+
+marval_heros.push(dc_heros);
+console.log(marval_heros);
