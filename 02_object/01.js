@@ -7,3 +7,4 @@ const jsuser={
 
 }
 console.log(jsuser);
+console.log(jsuser.age);
