@@ -10,3 +10,4 @@ const jsuser={
 console.log(jsuser);
 console.log(jsuser.age);
 console.log(jsuser.email);
+console.log(jsuser["email"]);
