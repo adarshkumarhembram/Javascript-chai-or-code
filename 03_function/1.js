@@ -18,3 +18,8 @@ function addTwonumbers(number1,number2){
     console.log(number1+number2);
 }
 addTwonumbers(4,"a")
+
+function addTwonumbers(number1,number2){
+    console.log(number1+number2);
+}
+addTwonumbers(4,null)
