@@ -38,3 +38,5 @@ function one (){
 }
 
 one()
+
+console.log(username);
