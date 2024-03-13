@@ -47,3 +47,12 @@ if (true){
     const b=20;
     console.log("INNER : " ,a);
 }
+
+
+const myNewarray = [200,400,100,600]
+
+function returnSecondValue(getArray){
+    return getarray[1]
+}
+
+console.log(returnSecondValue(myNewarray));
