@@ -57,3 +57,9 @@ function returnSecondValue(getArray){
 
 console.log(returnSecondValue(myNewarray));
 console.log(returnSecondValue(myNewarray));
+
+let aga =10;
+const b=20
+var c = 30
+
+console.log(aga);
