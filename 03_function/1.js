@@ -64,3 +64,4 @@ var c = 30
 
 console.log(aga);
 console.log(b);
+console.log(c);
