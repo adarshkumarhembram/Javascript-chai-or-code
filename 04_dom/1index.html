@@ -10,11 +10,21 @@
 <body>
     <!-- ID -->
     <p id="one"><span>hello</span> nameste</p>
+    <!-- class -->
+    <ul>
+        <li id="tech">one</li>
+        <li id="tech">two</li>
+        <li id="tech">three</li>
+    </ul>
     
     
     <script>
         let var1=document.getElementById("one");
         console.log(var1.innerHTML);
+
+         // class
+         let var2=document.getElementsByClassName("tech");
+        console.log(var2);
     </script>
 </body>
 </html>
