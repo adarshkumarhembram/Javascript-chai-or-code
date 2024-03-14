@@ -16,6 +16,11 @@
         <li class="tech">two</li>
         <li class="tech">three</li>
     </ul>
+
+    <!-- tagname -->
+    <h4>hi</h4>
+    <h4>hello</h4>
+    <h4>hola</h4>
     
     
     <script>
@@ -25,6 +30,11 @@
         let var2=document.getElementsByClassName("tech");
          console.log(var2);
          var2[2].innerText="hello";
+
+         let var3=document.getElementsByTagName("h4")
+         console.log(var3);
+         var3[1].innerText="namaste";
+         var3[1].style.color="red";
     </script>
 </body>
 </html>
