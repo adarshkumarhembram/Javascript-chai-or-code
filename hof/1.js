@@ -19,3 +19,15 @@ function sayhello(){
 let guessvalue = sayhello()
 // console.log(guessvalue);
 guessvalue()
+
+const heigherorder = m =>{
+    const onefun= n=>{
+        const twofun = p=>{
+            return m + n + p;
+        }
+        return twofun
+    }
+    return onefun
+
+}
+console.log(heigherorder(2)(3)(4))
