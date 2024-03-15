@@ -8,3 +8,14 @@ function powerCube (powerTwo,n){
 }
 
 console.log(powerCube(powerTwo,2));
+
+
+function sayhello(){
+    return ()=>{
+        console.log("hello adarsh");
+    }
+}
+
+let guessvalue = sayhello()
+// console.log(guessvalue);
+guessvalue()
