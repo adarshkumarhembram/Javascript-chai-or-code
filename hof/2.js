@@ -35,3 +35,10 @@ const gameScore = [200, 100, 310, 300, 250, 150]
 console.log(typeof gameScore[1]);
 const gameScoreCheck = gameScore.every((v) => typeof v === 'number')
 console.log("check: ", gameScoreCheck);
+
+
+// find score above 200
+
+const above200 = gameScore.find((score) => score > 200 )
+
+console.log(above200);
