@@ -15,3 +15,10 @@ heros.forEach((el) =>{console.log(el.toUpperCase());})
 heros.map(function(element,index,heros){
     console.log(index,element,heros);
 })
+
+//filter
+console.log(heros);
+const herosWithRaj = heros.filter((h) => {
+    return h.endsWith('raj')
+})
+console.log(herosWithRaj);
