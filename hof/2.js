@@ -28,3 +28,10 @@ console.log(herosWithRaj);
 const cartBill = [20, 30, 50]
 const sumOfCartBill = cartBill.reduce((prev, curr) => prev+curr, 0)
 console.log(sumOfCartBill);
+
+const gameScore = [200, 100, 310, 300, 250, 150]
+
+//check if all values are numbers
+console.log(typeof gameScore[1]);
+const gameScoreCheck = gameScore.every((v) => typeof v === 'number')
+console.log("check: ", gameScoreCheck);
