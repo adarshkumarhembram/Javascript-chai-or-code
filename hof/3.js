@@ -6,3 +6,12 @@ let flag = 'gi'
 let regExTwo = new RegExp(pattern, flag)
 
 let regExThree = /pw/gi
+
+
+const strToCheck = "PW is growing at a rapid speed and recently they are working on Pwskills to create skills based pwcontent"
+
+const result = regExThree.test(strToCheck)
+console.log(result);
+
+const anotherResult = strToCheck.match(regExThree)
+console.log(anotherResult);
