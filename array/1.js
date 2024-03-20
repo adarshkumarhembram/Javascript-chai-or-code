@@ -8,3 +8,4 @@ const user = {
 }
 
 user.welcomeMessege()
+user.username="Sam"
