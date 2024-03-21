@@ -12,3 +12,8 @@ user.username="Sam"
 user.welcomeMessege()
 
 console.log(this);
+
+function chai(){
+    console.log(this);
+}
+chai()
