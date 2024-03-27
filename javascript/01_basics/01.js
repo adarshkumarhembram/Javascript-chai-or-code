@@ -22,3 +22,4 @@ console.table([accoundId, accountEmail, accountPassword, accountPassword]);
 //
 // prefer not to use var beacuse issue in block scope and function scope
 //
+console.log("hello");
