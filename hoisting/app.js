@@ -9,3 +9,4 @@ Zfun();
 function Zfun(){
     console.log("function has been called");
 }
+console.log(Zfun);
