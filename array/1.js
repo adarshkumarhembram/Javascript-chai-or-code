@@ -17,3 +17,9 @@ function chai(){
     console.log(this);
 }
 chai()
+
+const Adarsh  = () => {
+console.log("chandal");
+}
+
+Adarsh();
