@@ -17,3 +17,10 @@ console.log(gameName.charAt(2));
 console.log(gameName.indexOf('r'));
 
 console.log(gameName);
+
+//  Declare a varibale and assign string value to it and then split it into an array using split() method
+
+let str = "JAGDISH";
+
+let strArr = str.split("");
+console.log(strArr);
