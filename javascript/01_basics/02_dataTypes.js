@@ -12,7 +12,7 @@ let isLoggedin = true;
 // string
 //boolean=>true and false
 // standlone value
-//undefined =>
+//undefined =>.
 //symbol-unique
 
 //object
