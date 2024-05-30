@@ -92,3 +92,4 @@ const getFileExtension = (fileName) => {
 };
 
 getFileExtension("example.java"); // prints "txt" in the console
+// console.log();
