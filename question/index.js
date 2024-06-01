@@ -112,3 +112,4 @@ function multiplication(a, b) {
 function division(a, b) {
   return a / b;
 }
+// console.log();
