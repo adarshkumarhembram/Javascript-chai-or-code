@@ -121,10 +121,10 @@ function division(a, b) {
 // 	2 * 2 = 4
 // 	2 * 3 = 6 and so on till 2 * 10 = 20.
 
-let nume= 5;
-let i = 1;
+// let nume= 5;
+// // let i = 1;
 
-while (i <= 10) {
-  console.log(i * nume);
-  i++;
-}
+// while (i <= 10) {
+//   console.log(i * nume);
+//   i++;
+// }
