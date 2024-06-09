@@ -10,3 +10,11 @@ function Zfun(){
     console.log("function has been called");
 }
 console.log(Zfun);
+
+
+function foo() {
+    console.log("Hello, world!");
+  }
+  
+  foo(); // "Hello, world!"
+  
