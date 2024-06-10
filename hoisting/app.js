@@ -17,4 +17,11 @@ function foo() {
   }
   
   foo(); // "Hello, world!"
+
+  bar(); // TypeError: bar is not a function
+  var bar = function() {
+      console.log("Hello, I am bar!");
+  };
   
+  
+
