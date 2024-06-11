@@ -22,6 +22,10 @@ function foo() {
   var bar = function() {
       console.log("Hello, I am bar!");
   };
+
   
+  console.log(x); // undefined
+var x = 5;
+
   
 
