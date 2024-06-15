@@ -37,7 +37,7 @@ performTask(callbackFunction);
 
 
 
-// Function to simulate an asynchronous operation (e.g., fetching data from a server)
+// Function to simulate an asynchronous operation (e.g., fetching data from a server)...
 function fetchData(callback) {
     // Simulate a delay (e.g., network request)
     setTimeout(() => {
