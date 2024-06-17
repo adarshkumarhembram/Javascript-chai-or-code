@@ -75,4 +75,4 @@ console.log(1 + +'2' + '2'); // Output: "32"
 console.log(1 + -'1' + '2'); // Output: "02"
 console.log(+'1' + '1' + '2'); // Output: "112"
 console.log('A' - 'B' + '2'); // Output: "NaN2"
-console.log('A' - 'B' + 2); // Output: NaN
+console.log('A' - 'B' + 2); // Output: NaN/
