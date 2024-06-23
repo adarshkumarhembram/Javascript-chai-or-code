@@ -69,3 +69,6 @@ console.log(c);
 
 
 
+function functionName(parameters) {
+  // code block to be executed
+}
