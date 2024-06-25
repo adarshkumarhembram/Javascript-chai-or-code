@@ -76,3 +76,37 @@ console.log(1 + -'1' + '2'); // Output: "02"
 console.log(+'1' + '1' + '2'); // Output: "112"
 console.log('A' - 'B' + '2'); // Output: "NaN2"
 console.log('A' - 'B' + 2); // Output: NaN
+
+
+// Define a car object
+let car = {
+  make: 'Honda',
+  model: 'Civic',
+  year: 2022,
+  color: 'black',
+  mileage: 5000,
+  isWorking: true,
+  drive: function() {
+      if (this.isWorking) {
+          console.log('The car is being driven.');
+          this.mileage += 50; // Increase mileage when driven
+      } else {
+          console.log('The car is not in working condition.');
+      }
+  },
+  repair: function() {
+      this.isWorking = true;
+      console.log('The car has been repaired.');
+  }
+};
+
+// Access properties and methods of the car object
+console.log(`Car make: ${car.make}`);
+console.log(`Car model: ${car.model}`);
+console.log(`Car year: ${car.year}`);
+console.log(`Car color: ${car.color}`);
+console.log(`Car mileage: ${car.mileage}`);
+car.drive(); // Simulate driving the car
+console.log(`Updated mileage: ${car.mileage}`);
+car.repair(); // Repair the car
+car.drive(); // Drive the car again after repair

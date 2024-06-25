@@ -27,3 +27,4 @@ let person = {
 console.log(person.firstName);  // Output: John
 console.log(person.age);        // Output: 30
 console.log(person.fullName()); // Output: John Doe
+
