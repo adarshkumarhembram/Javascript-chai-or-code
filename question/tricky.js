@@ -110,3 +110,4 @@ car.drive(); // Simulate driving the car
 console.log(`Updated mileage: ${car.mileage}`);
 car.repair(); // Repair the car
 car.drive(); // Drive the car again after repair
+// 
