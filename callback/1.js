@@ -60,3 +60,27 @@ function handleData(error, data) {
 console.log('Fetching data...');
 fetchData(handleData);
 console.log('Data fetch initiated...');
+
+
+
+// Simulating an asynchronous operation with a setTimeout
+function fetchData(callback) {
+    setTimeout(function() {
+      // Assuming data is fetched successfully
+      const data = { name: 'John Doe', age: 30 };
+      callback(null, data); // Pass null for error (if any) and data
+    }, 2000); // Simulating a delay of 2 seconds
+  }
+  
+  // Callback function to handle the fetched data
+  function handleData(error, data) {
+    if (error) {
+      console.error('Error fetching data:', error);
+    } else {
+      console.log('Fetched data:', data);
+    }
+  }
+  
+  // Calling the fetchData function with the callback
+  fetchData(handleData);
+  
