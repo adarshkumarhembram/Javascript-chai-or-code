@@ -28,3 +28,9 @@ console.log(person.firstName);  // Output: John
 console.log(person.age);        // Output: 30
 console.log(person.fullName()); // Output: John Doe
 
+for (var i = 0; i < 5; i++) {
+    setTimeout(function() {
+      console.log(i);
+    }, 100);
+  }
+  
