@@ -54,12 +54,12 @@ const doubledNumbers = numbers.map(num => num * 2);
 console.log(doubledNumbers);
 
 // Define an object representing a person and print their name
-const persosn = {
-  firstName: 'John',
-  lastName: 'Doe',
-  age: 30,
-  greet: function() {
-      console.log(`Hello, my name is ${this.firstName} ${this.lastName}.`);
-  }
-};
-person.greet();
+// const persosn = {
+//   firstName: 'John',
+//   lastName: 'Doe',
+//   age: 30,
+//   greet: function() {
+//       console.log(`Hello, my name is ${this.firstName} ${this.lastName}.`);
+//   }
+// };
+// person.greet();
