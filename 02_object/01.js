@@ -63,3 +63,5 @@ console.log(doubledNumbers);
 //   }
 // };
 // person.greet();
+
+// console.log(map);
