@@ -20,3 +20,13 @@ async function getData(event) {
   
   console.log(factorial(5)); // Calculate factorial of 5
   
+
+  function fetchData(callback) {
+    setTimeout(function() {
+        callback("Data received!");
+    }, 1000);
+}
+
+fetchData(function(data) {
+    console.log(data); // Output: Data received!
+});
