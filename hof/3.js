@@ -25,3 +25,26 @@
 
 // const useableUrl = webUrl.replace(/%\d0/, '-')
 // console.log(useableUrl);
+
+
+// Example array of books
+let books = [
+    { title: "The Catcher in the Rye", author: "J.D. Salinger", year: 1951 },
+    { title: "To Kill a Mockingbird", author: "Harper Lee", year: 1960 },
+    { title: "1984", author: "George Orwell", year: 1949 },
+    { title: "The Great Gatsby", author: "F. Scott Fitzgerald", year: 1925 }
+];
+
+// Function to sort books by year in ascending order
+function sortByYear(books) {
+    return books.sort((a, b) => a.year - b.year);
+}
+
+// Sort the books array by year
+let sortedBooks = sortByYear(books);
+
+// Output the sorted books
+console.log("Books sorted by year:");
+sortedBooks.forEach(book => {
+    console.log(`${book.title} (${book.year}) - ${book.author}`);
+});
