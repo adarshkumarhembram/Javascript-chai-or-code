@@ -48,3 +48,11 @@ console.log("Books sorted by year:");
 sortedBooks.forEach(book => {
     console.log(`${book.title} (${book.year}) - ${book.author}`);
 });
+function uniq(array) {
+    return [...new Set(array)];
+}
+
+// Example usage:
+let arr = [1, 2, 2, 3, 4, 4, 5];
+let uniqueArray = uniq(arr);
+console.log(uniqueArray); // Output: [1, 2, 3, 4, 5]
