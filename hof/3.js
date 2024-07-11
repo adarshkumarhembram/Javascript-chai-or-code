@@ -56,3 +56,39 @@ function uniq(array) {
 let arr = [1, 2, 2, 3, 4, 4, 5];
 let uniqueArray = uniq(arr);
 console.log(uniqueArray); // Output: [1, 2, 3, 4, 5]
+
+
+
+
+// Function that returns a Promise
+function fetchData() {
+    return new Promise((resolve, reject) => {
+        // Simulating an asynchronous operation (e.g., fetching data from an API)
+        setTimeout(() => {
+            const data = {
+                name: 'John Doe',
+                age: 30,
+                city: 'New York'
+            };
+            // Resolve the promise with the data
+            resolve(data);
+            // Alternatively, you can reject the promise if an error occurs:
+            // reject(new Error('Failed to fetch data'));
+        }, 2000); // Simulating a delay of 2 seconds
+    });
+}
+
+// Using the fetchData function with Promises
+fetchData()
+    .then(data => {
+        console.log('Data:', data);
+        // You can chain further operations that depend on this data
+        return data.age; // Example of chaining
+    })
+    .then(age => {
+        console.log('Age:', age);
+        // Another chained operation
+    })
+    .catch(error => {
+        console.error('Error:', error);
+    });
