@@ -92,3 +92,12 @@ fetchData()
     .catch(error => {
         console.error('Error:', error);
     });
+
+
+    async function getData() {
+        const data = await fetchData();
+        console.log(data);
+    }
+    
+    getData(); // Output after 2 seconds: Data received
+    
