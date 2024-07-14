@@ -100,4 +100,6 @@ fetchData()
     }
     
     getData(); // Output after 2 seconds: Data received
+
     
+// console.log();
