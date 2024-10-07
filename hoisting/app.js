@@ -34,3 +34,6 @@ var x = 5;
 console.log(x); // Outputs: undefined
 var x = 5;
 console.log(x); // Outputs: 5
+
+
+// Task: Write a function that splits an array into smaller arrays (chunks) of a specified size.
