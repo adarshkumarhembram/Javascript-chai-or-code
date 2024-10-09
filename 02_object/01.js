@@ -65,3 +65,16 @@ console.log(doubledNumbers);
 // person.greet();
 
 // console.log(map);
+
+
+
+function fetchData(callback) {
+  setTimeout(() => {
+      const data = "Data received!";
+      callback(data);
+  }, 1000);
+}
+
+fetchData((data) => {
+  console.log(data); // Output: Data received!
+});
